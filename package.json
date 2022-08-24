@@ -1,0 +1,15 @@
+{
+  "name": "workers-test",
+  "version": "0.0.0",
+  "dependencies": {
+    "nanoid": "4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "2.0.27"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  }
+}
